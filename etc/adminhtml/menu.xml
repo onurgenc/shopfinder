@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Ogenc_Shopfinder::ogenc_shop_index"
+             module="Ogenc_Shopfinder"
+             title="Shopfinder"
+             sortOrder="255"
+             dependsOnModule="Ogenc_Shopfinder"
+             action="shopfinder/shop/index"
+             parent="Magento_Backend::content_elements"
+             resource="Ogenc_Shopfinder::ogenc_shop_index"
+        />
+    </menu>
+</config>
