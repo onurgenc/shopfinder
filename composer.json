@@ -6,7 +6,7 @@
   "minimum-stability": "dev",
   "license": "MIT",
   "require": {
-    "php": "~7.0.0",
+    "php": "~7.0.0"
   },
   "autoload": {
     "files": [
@@ -15,11 +15,5 @@
     "psr-4": {
       "Ogenc\\Shopfinder\\": ""
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/onurgenc/shopfinder"
-    }
-  ]
+  }
 }
