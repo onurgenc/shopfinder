@@ -15,5 +15,11 @@
     "psr-4": {
       "Ogenc\\Shopfinder\\": ""
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/onurgenc/shopfinder"
+    }
+  ]
 }
